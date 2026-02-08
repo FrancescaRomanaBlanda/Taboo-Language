@@ -11,34 +11,7 @@
 
 ---
 
-## STEP 2. How We Use English in This Project
-
-### Purpose
-
-In this project, **English is used as a shared analytical frame**, not as a gold standard.
-
-We use English to **define common category labels** so that different languages can be compared within the same reference system.
-
----
-
-### Role of English
-
-English functions as:
-
-- ✅ **A category anchor**
-    
-    → shared labels for analysis
-    
-- ✅ **A meta-language for comparison**
-    
-    → a common descriptive language among team members
-    
-- ❌ **NOT a normative or “correct” standard**
-    
-    → English does *not* decide what is taboo o
-    
-
-## STEP 3. Language-Specific Analysis
+## STEP 2. Language-Specific Analysis
 
 Each language observes its own data → patterns are shared → patterns are compared
 
@@ -46,20 +19,40 @@ Each language observes its own data → patterns are shared → patterns are com
 
 *(Korean / Italian / Sinhala / English – same process for all)*
 
----
+### Data Schema
+1. sentence_id
+    - string or int
+2. Language
+    - `ITA`
+    - `KOR`
+    - `SIN`
+3. context
+    - comment / sentence
+    - the text unit on which offensiveness is judged
+4. offensiveness
+    - `OFF` : offensive
+    - `NOT` : not offensive (including neutral or unspecified cases)
+5. target_type
+    - `UNT` : Untargeted
+    - `IND` : Individual
+    - `GRP` : Group
+    - `OTH` : Other (organization, institution, event)
+    - offensiveness = NOT→ `null`
 
-### 🔹 (0) **Selct a category**
+6. target_group_attribute
 
-- **Gender**
-- **Politics**
-- **Race**
-- **Religion**
-- **Citizenship**
-- **Age**
-- **Disability**
-- **National Origin**
+- `Gender & Sexual Orientation`
+- `Race, Ethnicity & Nationality`
+- `Political Affiliation`
+- `Religion`
+- `Miscellaneous`
+- defined only when `target_type = GRP`; otherwise `null`
+1. offensive_span
+    - Level A span he minimal and sufficient text span that justifies offensiveness
+    - It can be tokens, word, expression..
+    - that makes “context” offensive
 
-### 🔹 (0.5) Make or collect your own language !!
+###  Make or collect your own language
 
 - **Existing datasets**
     - Do not assume consistency across sources
