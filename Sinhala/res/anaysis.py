@@ -1,26 +1,16 @@
 import os
 import pandas as pd
 
-
-
-def read_sold_test(file_path):
-    # handle potential malformed rows gracefully
-    try:
-        df = pd.read_csv(file_path, on_bad_lines='skip')  # pandas >=1.3
-    except TypeError:
-        # fallback for older pandas versions
-        df = pd.read_csv(file_path, error_bad_lines=False, warn_bad_lines=True)
+def read_sold_test():
+    df = pd.read_csv('../data/offensive_words_categorized.csv')
     print(df.dtypes)
     print(df.head())
     return df
 
-def read_and_group_offensive_words(file_path):
+def read_and_group_offensive_words(file_path='data/offensive_words_categorized.csv'):
     """Read offensive words file and group by category."""
-    try:
-        df = pd.read_csv(file_path, on_bad_lines='skip')
-    except TypeError:
-        df = pd.read_csv(file_path, error_bad_lines=False, warn_bad_lines=True)
-    
+    df = pd.read_csv(file_path)
+
     # Group by category
     grouped = df.groupby('Category')
     
@@ -35,36 +25,24 @@ def read_and_group_offensive_words(file_path):
     
     return grouped
 def analyze_data(df):
-    # Iterate rows safely and report offensive entries
-    for index, value in df.iterrows():
-        if value.get('label') == "OFF":
+   for index, value in df.iterrows()    :
+    if value['label'] == "OFF":
             print("Offensive content detected.")
-            print(value.get('text'))
+            print(value['text'])
 
-def visualize_data(grouped):
-    output_path = os.path.normpath(os.path.join(base_dir, '..', 'output', 'output.html'))
 
     output=pd.DataFrame(grouped.size(), columns=['Count'])
     output.to_html(output_path)
 
 def main():
-    try:
-        # build path relative to this script so you won't get FileNotFoundError
-        base_dir = os.path.dirname(__file__)
-        file_path = os.path.normpath(os.path.join(base_dir, '..', 'data', 'offensive_words_categorized.csv'))
-        
-        df = read_sold_test(file_path)
-        analyze_data(df)
-        grouped = read_and_group_offensive_words(file_path)
-        visualize_data(grouped)  # Pass the output path to the visualization function
-        
-        print("Analysis complete!", grouped)
-    except FileNotFoundError:
-        print(f"Error: File not found at {file_path}")
-    except Exception as e:
-        print(f"Error: {e}")
+    """Main function to execute all functions."""
+    print("Starting analysis...")
+    df = read_sold_test()
+    analyze_data(df)
+    grouped = read_and_group_offensive_words()
+    print("Analysis complete!")
 
 if __name__ == '__main__':
     base_dir = os.path.dirname(__file__)
-      
+
     main()
