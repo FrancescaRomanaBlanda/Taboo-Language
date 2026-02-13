@@ -1,5 +1,7 @@
 import json
 import pandas as pd
+
+
 df = pd.read_csv('sold_test.csv')
 
 def get_offensive_words(row):
