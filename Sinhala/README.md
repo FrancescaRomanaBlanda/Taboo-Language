@@ -4,23 +4,9 @@ https://github.com/Sinhala-NLP/SOLD/tree/master
 
 ## Method :
 1. Identify the categories  
-    - Use LLMs ✅ Done
-    - Manual review ✅ Done
-
-- Groups
-      - Gender and Sex
-      - Politics
-      - Race
-      - Religion
-      - Citizenship
-      - Age
-      - Disability
-      - NationalOrigin
-      - Other
-
-
-2. Identify most frequent category and identify the reasons
-![alt text](image.png) 
+    - Use LLMs
+    - Manual review 
+2. Identify most frequent category and identify the reasons 
 3. Unique words/categories for each language
 4. EDA analysis
 
