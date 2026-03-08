@@ -1,0 +1,23 @@
+Category,Example Words (Sinhala),Focus / Context
+Politics,"වහල්ලු, බයියෝ, ටොයියෝ, ජෙප්පෝ, අමුඩයා, හොරු, මූසලයා, කාලකන්නියා, පපුවා, දේශද්‍රෝහියා, පාවාදෙන්නා, රූකඩය, මුදලාලිලා.",දේශපාලන පක්ෂපාතීත්වය මත පදනම් වූ අපහාස.
+Gender/Sexuality,"පොන්නයා, නපුංසකයා, බඩුව, ගණිකාව, වේසි, පොන්න පැටියා, අංගනාව (උපහාසයට), අර්ධ-පිරිමි.",ස්ත්‍රී/පුරුෂ භාවය සහ ලිංගික අනන්‍යතාවය ඉලක්ක කරගත් වචන.
+Race/Origin,"තම්බියා, පරයා, කල්ලා, කොටියා, හම්බයා, ගොඩයා, ගොන් හරකා, වැද්දා (අවමන් සහගත ලෙස), පිටස්තරයා, අනාථයා.","ජාතිය, කුලය හෝ උපන් ප්‍රදේශය හෑල්ලු කිරීම."
+Religion,"අන්තවාදියා, අන්‍යාගමිකයා, මිථ්‍යාදෘෂ්ටිකයා, කුරුසයා, තලෙයිබාන්, පල්ලි කාරයා, සිවුරුකාරයා (අගෞරවයට).",ආගමික කණ්ඩායම් අතර වෛරය පැතිරවීමට යොදාගන්නා යෙදුම්.
+Disability,"මොන්ගල්, පිස්සා, කොරා, ඇදයා, අන්ධයා, ගොළුවා, බිහිරි එකා, මන්දබුද්ධිකයා, අබ්බගාතයා, ඔලුවෙ අමාරුකාරයා.",ශාරීරික හෝ මානසික දුබලතා උපහාසයට ලක් කිරීම.
+Other Social Slurs,"හිඟන්නා, කාලකන්නියා, පවුකාරයා, අවජාතකයා, වල් සතා, කුඩුකාරයා, බේබද්දා, අමනයා, තිරිසනා, තුට්ටු දෙකේ එකා.",පුද්ගල චරිත ඝාතනය සහ සමාජ තත්ත්වය පහත් කිරීම.
+
+
+
+
+
+Category,Sinhala Word,English Meaning/Context
+Politics,වහල්ලු (Wahallu),Political slaves (Blind followers)
+Politics,බයියෝ / ටොයියෝ,Slang for rival political supporters
+Gender,පොන්නයා (Ponnaya),Highly offensive slur for males/transgender
+Race,තම්බියා (Thambiya),Derogatory term for Muslims
+Religion,අන්‍යාගමිකයා,Used in a marginalizing context
+Disability,මොන්ගල් (Mongal),Offensive term for mental disability
+Disability,කොරා / ඇදයා,Derogatory terms for physical disability
+Origin,ගොඩයා (Godaya),Derogatory term for rural people
+Age,නාකියා (Nakiya),Offensive term for elderly
+Other,හිඟන්නා (Higanna),Used to look down on poor people

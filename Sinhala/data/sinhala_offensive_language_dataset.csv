@@ -1,0 +1,505 @@
+id,word,category,offensiveness_level,language
+1,මෝඩ,insult,medium,si
+2,පිස්සු,insult,medium,si
+3,ගොන්,insult,medium,si
+4,බූරු,insult,medium,si
+5,කුණු,insult,medium,si
+6,නරක,insult,medium,si
+7,කපටි,insult,medium,si
+8,බොරුව,insult,medium,si
+9,නාස්ති,insult,medium,si
+10,දුෂ්ට,insult,medium,si
+11,හිස්,insult,medium,si
+12,ලජ්ජා නැති,insult,medium,si
+13,අගය නැති,insult,medium,si
+14,වැඩක් නැති,insult,medium,si
+15,අසාර්ථක,insult,medium,si
+16,දුර්වල,insult,medium,si
+17,කම්මැලි,insult,medium,si
+18,අසභ්‍ය,insult,medium,si
+19,නින්දා,insult,medium,si
+20,අගෞරව,insult,medium,si
+21,අකල්පනා,insult,medium,si
+22,අවුල්,insult,medium,si
+23,ගැටලු,insult,medium,si
+24,අසත්‍ය,insult,medium,si
+25,මෝඩ මිනිහා,behavior,medium,si
+26,මෝඩ කෙනා,insult,medium,si
+27,මෝඩ යා,behavior,high,si
+28,මෝඩ මනුස්සයා,insult,low,si
+29,මෝඩ චරිතය,behavior,low,si
+30,මෝඩ කට,abuse,medium,si
+31,මෝඩ කතා,insult,medium,si
+32,මෝඩ වැඩ,insult,high,si
+33,මෝඩ හැසිරීම,behavior,high,si
+34,මෝඩ අදහස්,abuse,high,si
+35,මෝඩ මොළේ,aggression,low,si
+36,මෝඩ මනස,insult,medium,si
+37,මෝඩ ප්‍රකාශ,aggression,high,si
+38,මෝඩ වචන,aggression,high,si
+39,මෝඩ කම,character_attack,low,si
+40,මෝඩ ජීවිතය,character_attack,low,si
+41,මෝඩ පුරුද්ද,insult,low,si
+42,මෝඩ විදිහ,character_attack,high,si
+43,මෝඩ ආකාරය,insult,high,si
+44,මෝඩ හැටි,behavior,high,si
+45,පිස්සු මිනිහා,aggression,medium,si
+46,පිස්සු කෙනා,character_attack,medium,si
+47,පිස්සු යා,character_attack,medium,si
+48,පිස්සු මනුස්සයා,aggression,low,si
+49,පිස්සු චරිතය,character_attack,medium,si
+50,පිස්සු කට,behavior,low,si
+51,පිස්සු කතා,insult,low,si
+52,පිස්සු වැඩ,insult,low,si
+53,පිස්සු හැසිරීම,character_attack,high,si
+54,පිස්සු අදහස්,character_attack,low,si
+55,පිස්සු මොළේ,insult,high,si
+56,පිස්සු මනස,character_attack,medium,si
+57,පිස්සු ප්‍රකාශ,aggression,medium,si
+58,පිස්සු වචන,behavior,high,si
+59,පිස්සු කම,abuse,medium,si
+60,පිස්සු ජීවිතය,abuse,medium,si
+61,පිස්සු පුරුද්ද,character_attack,low,si
+62,පිස්සු විදිහ,abuse,medium,si
+63,පිස්සු ආකාරය,insult,medium,si
+64,පිස්සු හැටි,insult,medium,si
+65,ගොන් මිනිහා,behavior,medium,si
+66,ගොන් කෙනා,abuse,low,si
+67,ගොන් යා,insult,medium,si
+68,ගොන් මනුස්සයා,behavior,medium,si
+69,ගොන් චරිතය,behavior,low,si
+70,ගොන් කට,character_attack,medium,si
+71,ගොන් කතා,behavior,low,si
+72,ගොන් වැඩ,character_attack,high,si
+73,ගොන් හැසිරීම,aggression,high,si
+74,ගොන් අදහස්,aggression,low,si
+75,ගොන් මොළේ,character_attack,low,si
+76,ගොන් මනස,aggression,high,si
+77,ගොන් ප්‍රකාශ,abuse,low,si
+78,ගොන් වචන,aggression,medium,si
+79,ගොන් කම,behavior,high,si
+80,ගොන් ජීවිතය,character_attack,medium,si
+81,ගොන් පුරුද්ද,abuse,high,si
+82,ගොන් විදිහ,behavior,medium,si
+83,ගොන් ආකාරය,behavior,low,si
+84,ගොන් හැටි,behavior,low,si
+85,බූරු මිනිහා,aggression,low,si
+86,බූරු කෙනා,insult,high,si
+87,බූරු යා,behavior,high,si
+88,බූරු මනුස්සයා,insult,high,si
+89,බූරු චරිතය,insult,medium,si
+90,බූරු කට,character_attack,high,si
+91,බූරු කතා,insult,high,si
+92,බූරු වැඩ,insult,medium,si
+93,බූරු හැසිරීම,abuse,low,si
+94,බූරු අදහස්,aggression,medium,si
+95,බූරු මොළේ,character_attack,high,si
+96,බූරු මනස,insult,low,si
+97,බූරු ප්‍රකාශ,abuse,low,si
+98,බූරු වචන,behavior,low,si
+99,බූරු කම,abuse,high,si
+100,බූරු ජීවිතය,character_attack,low,si
+101,බූරු පුරුද්ද,character_attack,medium,si
+102,බූරු විදිහ,abuse,high,si
+103,බූරු ආකාරය,insult,low,si
+104,බූරු හැටි,behavior,high,si
+105,කුණු මිනිහා,insult,high,si
+106,කුණු කෙනා,insult,low,si
+107,කුණු යා,character_attack,low,si
+108,කුණු මනුස්සයා,character_attack,medium,si
+109,කුණු චරිතය,abuse,low,si
+110,කුණු කට,aggression,high,si
+111,කුණු කතා,character_attack,low,si
+112,කුණු වැඩ,insult,low,si
+113,කුණු හැසිරීම,character_attack,medium,si
+114,කුණු අදහස්,character_attack,high,si
+115,කුණු මොළේ,abuse,low,si
+116,කුණු මනස,abuse,medium,si
+117,කුණු ප්‍රකාශ,character_attack,medium,si
+118,කුණු වචන,abuse,high,si
+119,කුණු කම,insult,medium,si
+120,කුණු ජීවිතය,abuse,low,si
+121,කුණු පුරුද්ද,abuse,medium,si
+122,කුණු විදිහ,aggression,medium,si
+123,කුණු ආකාරය,insult,high,si
+124,කුණු හැටි,aggression,high,si
+125,නරක මිනිහා,aggression,high,si
+126,නරක කෙනා,behavior,medium,si
+127,නරක යා,insult,medium,si
+128,නරක මනුස්සයා,character_attack,high,si
+129,නරක චරිතය,behavior,high,si
+130,නරක කට,behavior,low,si
+131,නරක කතා,insult,medium,si
+132,නරක වැඩ,behavior,high,si
+133,නරක හැසිරීම,behavior,low,si
+134,නරක අදහස්,aggression,medium,si
+135,නරක මොළේ,insult,high,si
+136,නරක මනස,character_attack,medium,si
+137,නරක ප්‍රකාශ,character_attack,medium,si
+138,නරක වචන,abuse,high,si
+139,නරක කම,aggression,high,si
+140,නරක ජීවිතය,behavior,low,si
+141,නරක පුරුද්ද,behavior,high,si
+142,නරක විදිහ,character_attack,medium,si
+143,නරක ආකාරය,abuse,high,si
+144,නරක හැටි,behavior,low,si
+145,කපටි මිනිහා,abuse,high,si
+146,කපටි කෙනා,abuse,high,si
+147,කපටි යා,abuse,low,si
+148,කපටි මනුස්සයා,character_attack,medium,si
+149,කපටි චරිතය,abuse,high,si
+150,කපටි කට,character_attack,low,si
+151,කපටි කතා,behavior,medium,si
+152,කපටි වැඩ,abuse,high,si
+153,කපටි හැසිරීම,behavior,high,si
+154,කපටි අදහස්,behavior,high,si
+155,කපටි මොළේ,behavior,high,si
+156,කපටි මනස,aggression,high,si
+157,කපටි ප්‍රකාශ,aggression,medium,si
+158,කපටි වචන,aggression,high,si
+159,කපටි කම,behavior,low,si
+160,කපටි ජීවිතය,aggression,high,si
+161,කපටි පුරුද්ද,insult,high,si
+162,කපටි විදිහ,insult,high,si
+163,කපටි ආකාරය,aggression,high,si
+164,කපටි හැටි,abuse,low,si
+165,බොරුව මිනිහා,behavior,medium,si
+166,බොරුව කෙනා,insult,low,si
+167,බොරුව යා,insult,medium,si
+168,බොරුව මනුස්සයා,aggression,medium,si
+169,බොරුව චරිතය,abuse,low,si
+170,බොරුව කට,insult,low,si
+171,බොරුව කතා,aggression,high,si
+172,බොරුව වැඩ,character_attack,high,si
+173,බොරුව හැසිරීම,abuse,medium,si
+174,බොරුව අදහස්,character_attack,high,si
+175,බොරුව මොළේ,abuse,high,si
+176,බොරුව මනස,character_attack,high,si
+177,බොරුව ප්‍රකාශ,aggression,high,si
+178,බොරුව වචන,abuse,high,si
+179,බොරුව කම,insult,high,si
+180,බොරුව ජීවිතය,abuse,medium,si
+181,බොරුව පුරුද්ද,insult,medium,si
+182,බොරුව විදිහ,insult,medium,si
+183,බොරුව ආකාරය,abuse,medium,si
+184,බොරුව හැටි,insult,high,si
+185,නාස්ති මිනිහා,abuse,high,si
+186,නාස්ති කෙනා,insult,medium,si
+187,නාස්ති යා,character_attack,medium,si
+188,නාස්ති මනුස්සයා,character_attack,medium,si
+189,නාස්ති චරිතය,aggression,high,si
+190,නාස්ති කට,aggression,low,si
+191,නාස්ති කතා,character_attack,medium,si
+192,නාස්ති වැඩ,aggression,medium,si
+193,නාස්ති හැසිරීම,aggression,low,si
+194,නාස්ති අදහස්,aggression,low,si
+195,නාස්ති මොළේ,behavior,medium,si
+196,නාස්ති මනස,insult,low,si
+197,නාස්ති ප්‍රකාශ,behavior,high,si
+198,නාස්ති වචන,behavior,high,si
+199,නාස්ති කම,aggression,low,si
+200,නාස්ති ජීවිතය,aggression,low,si
+201,නාස්ති පුරුද්ද,abuse,medium,si
+202,නාස්ති විදිහ,character_attack,low,si
+203,නාස්ති ආකාරය,character_attack,medium,si
+204,නාස්ති හැටි,abuse,high,si
+205,දුෂ්ට මිනිහා,behavior,medium,si
+206,දුෂ්ට කෙනා,aggression,low,si
+207,දුෂ්ට යා,aggression,low,si
+208,දුෂ්ට මනුස්සයා,behavior,medium,si
+209,දුෂ්ට චරිතය,aggression,low,si
+210,දුෂ්ට කට,aggression,low,si
+211,දුෂ්ට කතා,aggression,low,si
+212,දුෂ්ට වැඩ,abuse,medium,si
+213,දුෂ්ට හැසිරීම,insult,high,si
+214,දුෂ්ට අදහස්,insult,medium,si
+215,දුෂ්ට මොළේ,aggression,high,si
+216,දුෂ්ට මනස,abuse,medium,si
+217,දුෂ්ට ප්‍රකාශ,character_attack,medium,si
+218,දුෂ්ට වචන,insult,medium,si
+219,දුෂ්ට කම,insult,high,si
+220,දුෂ්ට ජීවිතය,character_attack,high,si
+221,දුෂ්ට පුරුද්ද,abuse,high,si
+222,දුෂ්ට විදිහ,insult,low,si
+223,දුෂ්ට ආකාරය,abuse,high,si
+224,දුෂ්ට හැටි,character_attack,low,si
+225,හිස් මිනිහා,character_attack,high,si
+226,හිස් කෙනා,aggression,medium,si
+227,හිස් යා,behavior,medium,si
+228,හිස් මනුස්සයා,behavior,high,si
+229,හිස් චරිතය,character_attack,low,si
+230,හිස් කට,behavior,high,si
+231,හිස් කතා,character_attack,high,si
+232,හිස් වැඩ,aggression,medium,si
+233,හිස් හැසිරීම,abuse,low,si
+234,හිස් අදහස්,behavior,high,si
+235,හිස් මොළේ,behavior,low,si
+236,හිස් මනස,abuse,low,si
+237,හිස් ප්‍රකාශ,aggression,low,si
+238,හිස් වචන,behavior,low,si
+239,හිස් කම,insult,medium,si
+240,හිස් ජීවිතය,behavior,medium,si
+241,හිස් පුරුද්ද,abuse,high,si
+242,හිස් විදිහ,abuse,low,si
+243,හිස් ආකාරය,behavior,low,si
+244,හිස් හැටි,behavior,high,si
+245,ලජ්ජා නැති මිනිහා,abuse,high,si
+246,ලජ්ජා නැති කෙනා,behavior,medium,si
+247,ලජ්ජා නැති යා,abuse,high,si
+248,ලජ්ජා නැති මනුස්සයා,character_attack,high,si
+249,ලජ්ජා නැති චරිතය,character_attack,high,si
+250,ලජ්ජා නැති කට,character_attack,medium,si
+251,ලජ්ජා නැති කතා,behavior,medium,si
+252,ලජ්ජා නැති වැඩ,character_attack,high,si
+253,ලජ්ජා නැති හැසිරීම,insult,low,si
+254,ලජ්ජා නැති අදහස්,aggression,low,si
+255,ලජ්ජා නැති මොළේ,insult,high,si
+256,ලජ්ජා නැති මනස,insult,low,si
+257,ලජ්ජා නැති ප්‍රකාශ,abuse,medium,si
+258,ලජ්ජා නැති වචන,character_attack,low,si
+259,ලජ්ජා නැති කම,insult,high,si
+260,ලජ්ජා නැති ජීවිතය,aggression,medium,si
+261,ලජ්ජා නැති පුරුද්ද,abuse,low,si
+262,ලජ්ජා නැති විදිහ,insult,low,si
+263,ලජ්ජා නැති ආකාරය,character_attack,high,si
+264,ලජ්ජා නැති හැටි,insult,low,si
+265,අගය නැති මිනිහා,abuse,high,si
+266,අගය නැති කෙනා,behavior,medium,si
+267,අගය නැති යා,behavior,low,si
+268,අගය නැති මනුස්සයා,aggression,medium,si
+269,අගය නැති චරිතය,abuse,low,si
+270,අගය නැති කට,abuse,high,si
+271,අගය නැති කතා,behavior,low,si
+272,අගය නැති වැඩ,insult,high,si
+273,අගය නැති හැසිරීම,behavior,medium,si
+274,අගය නැති අදහස්,abuse,low,si
+275,අගය නැති මොළේ,aggression,medium,si
+276,අගය නැති මනස,behavior,high,si
+277,අගය නැති ප්‍රකාශ,abuse,high,si
+278,අගය නැති වචන,insult,high,si
+279,අගය නැති කම,aggression,high,si
+280,අගය නැති ජීවිතය,insult,medium,si
+281,අගය නැති පුරුද්ද,insult,low,si
+282,අගය නැති විදිහ,abuse,high,si
+283,අගය නැති ආකාරය,insult,medium,si
+284,අගය නැති හැටි,behavior,medium,si
+285,වැඩක් නැති මිනිහා,aggression,low,si
+286,වැඩක් නැති කෙනා,aggression,medium,si
+287,වැඩක් නැති යා,aggression,medium,si
+288,වැඩක් නැති මනුස්සයා,behavior,low,si
+289,වැඩක් නැති චරිතය,insult,medium,si
+290,වැඩක් නැති කට,character_attack,high,si
+291,වැඩක් නැති කතා,behavior,medium,si
+292,වැඩක් නැති වැඩ,abuse,medium,si
+293,වැඩක් නැති හැසිරීම,character_attack,high,si
+294,වැඩක් නැති අදහස්,character_attack,medium,si
+295,වැඩක් නැති මොළේ,aggression,medium,si
+296,වැඩක් නැති මනස,behavior,high,si
+297,වැඩක් නැති ප්‍රකාශ,behavior,low,si
+298,වැඩක් නැති වචන,character_attack,high,si
+299,වැඩක් නැති කම,behavior,high,si
+300,වැඩක් නැති ජීවිතය,behavior,low,si
+301,වැඩක් නැති පුරුද්ද,behavior,high,si
+302,වැඩක් නැති විදිහ,aggression,low,si
+303,වැඩක් නැති ආකාරය,behavior,high,si
+304,වැඩක් නැති හැටි,abuse,medium,si
+305,අසාර්ථක මිනිහා,insult,medium,si
+306,අසාර්ථක කෙනා,behavior,low,si
+307,අසාර්ථක යා,aggression,medium,si
+308,අසාර්ථක මනුස්සයා,insult,medium,si
+309,අසාර්ථක චරිතය,insult,high,si
+310,අසාර්ථක කට,character_attack,medium,si
+311,අසාර්ථක කතා,behavior,low,si
+312,අසාර්ථක වැඩ,behavior,high,si
+313,අසාර්ථක හැසිරීම,abuse,low,si
+314,අසාර්ථක අදහස්,aggression,high,si
+315,අසාර්ථක මොළේ,aggression,medium,si
+316,අසාර්ථක මනස,abuse,low,si
+317,අසාර්ථක ප්‍රකාශ,aggression,low,si
+318,අසාර්ථක වචන,aggression,high,si
+319,අසාර්ථක කම,aggression,high,si
+320,අසාර්ථක ජීවිතය,character_attack,low,si
+321,අසාර්ථක පුරුද්ද,abuse,low,si
+322,අසාර්ථක විදිහ,aggression,high,si
+323,අසාර්ථක ආකාරය,insult,low,si
+324,අසාර්ථක හැටි,insult,high,si
+325,දුර්වල මිනිහා,insult,low,si
+326,දුර්වල කෙනා,insult,low,si
+327,දුර්වල යා,abuse,high,si
+328,දුර්වල මනුස්සයා,aggression,low,si
+329,දුර්වල චරිතය,character_attack,high,si
+330,දුර්වල කට,abuse,high,si
+331,දුර්වල කතා,insult,high,si
+332,දුර්වල වැඩ,aggression,low,si
+333,දුර්වල හැසිරීම,abuse,high,si
+334,දුර්වල අදහස්,behavior,low,si
+335,දුර්වල මොළේ,abuse,high,si
+336,දුර්වල මනස,aggression,medium,si
+337,දුර්වල ප්‍රකාශ,behavior,medium,si
+338,දුර්වල වචන,character_attack,low,si
+339,දුර්වල කම,behavior,low,si
+340,දුර්වල ජීවිතය,aggression,low,si
+341,දුර්වල පුරුද්ද,abuse,high,si
+342,දුර්වල විදිහ,character_attack,high,si
+343,දුර්වල ආකාරය,insult,medium,si
+344,දුර්වල හැටි,behavior,low,si
+345,කම්මැලි මිනිහා,character_attack,low,si
+346,කම්මැලි කෙනා,aggression,medium,si
+347,කම්මැලි යා,aggression,high,si
+348,කම්මැලි මනුස්සයා,insult,low,si
+349,කම්මැලි චරිතය,insult,medium,si
+350,කම්මැලි කට,character_attack,high,si
+351,කම්මැලි කතා,abuse,low,si
+352,කම්මැලි වැඩ,insult,medium,si
+353,කම්මැලි හැසිරීම,insult,high,si
+354,කම්මැලි අදහස්,aggression,low,si
+355,කම්මැලි මොළේ,insult,high,si
+356,කම්මැලි මනස,abuse,low,si
+357,කම්මැලි ප්‍රකාශ,abuse,high,si
+358,කම්මැලි වචන,aggression,low,si
+359,කම්මැලි කම,aggression,low,si
+360,කම්මැලි ජීවිතය,aggression,low,si
+361,කම්මැලි පුරුද්ද,abuse,high,si
+362,කම්මැලි විදිහ,aggression,low,si
+363,කම්මැලි ආකාරය,aggression,low,si
+364,කම්මැලි හැටි,aggression,low,si
+365,අසභ්‍ය මිනිහා,character_attack,medium,si
+366,අසභ්‍ය කෙනා,behavior,medium,si
+367,අසභ්‍ය යා,insult,low,si
+368,අසභ්‍ය මනුස්සයා,insult,high,si
+369,අසභ්‍ය චරිතය,insult,low,si
+370,අසභ්‍ය කට,aggression,high,si
+371,අසභ්‍ය කතා,character_attack,low,si
+372,අසභ්‍ය වැඩ,abuse,high,si
+373,අසභ්‍ය හැසිරීම,insult,low,si
+374,අසභ්‍ය අදහස්,insult,high,si
+375,අසභ්‍ය මොළේ,abuse,low,si
+376,අසභ්‍ය මනස,behavior,high,si
+377,අසභ්‍ය ප්‍රකාශ,aggression,medium,si
+378,අසභ්‍ය වචන,behavior,medium,si
+379,අසභ්‍ය කම,insult,low,si
+380,අසභ්‍ය ජීවිතය,abuse,low,si
+381,අසභ්‍ය පුරුද්ද,behavior,high,si
+382,අසභ්‍ය විදිහ,insult,low,si
+383,අසභ්‍ය ආකාරය,abuse,high,si
+384,අසභ්‍ය හැටි,aggression,medium,si
+385,නින්දා මිනිහා,character_attack,high,si
+386,නින්දා කෙනා,aggression,medium,si
+387,නින්දා යා,character_attack,medium,si
+388,නින්දා මනුස්සයා,character_attack,medium,si
+389,නින්දා චරිතය,aggression,low,si
+390,නින්දා කට,abuse,high,si
+391,නින්දා කතා,character_attack,medium,si
+392,නින්දා වැඩ,character_attack,low,si
+393,නින්දා හැසිරීම,behavior,high,si
+394,නින්දා අදහස්,insult,high,si
+395,නින්දා මොළේ,character_attack,low,si
+396,නින්දා මනස,character_attack,high,si
+397,නින්දා ප්‍රකාශ,abuse,low,si
+398,නින්දා වචන,abuse,high,si
+399,නින්දා කම,insult,high,si
+400,නින්දා ජීවිතය,abuse,high,si
+401,නින්දා පුරුද්ද,abuse,low,si
+402,නින්දා විදිහ,character_attack,low,si
+403,නින්දා ආකාරය,behavior,low,si
+404,නින්දා හැටි,aggression,high,si
+405,අගෞරව මිනිහා,character_attack,low,si
+406,අගෞරව කෙනා,aggression,high,si
+407,අගෞරව යා,abuse,high,si
+408,අගෞරව මනුස්සයා,insult,high,si
+409,අගෞරව චරිතය,abuse,low,si
+410,අගෞරව කට,abuse,low,si
+411,අගෞරව කතා,behavior,high,si
+412,අගෞරව වැඩ,insult,low,si
+413,අගෞරව හැසිරීම,aggression,high,si
+414,අගෞරව අදහස්,insult,medium,si
+415,අගෞරව මොළේ,character_attack,medium,si
+416,අගෞරව මනස,abuse,low,si
+417,අගෞරව ප්‍රකාශ,behavior,low,si
+418,අගෞරව වචන,insult,medium,si
+419,අගෞරව කම,insult,low,si
+420,අගෞරව ජීවිතය,abuse,high,si
+421,අගෞරව පුරුද්ද,insult,medium,si
+422,අගෞරව විදිහ,insult,medium,si
+423,අගෞරව ආකාරය,behavior,low,si
+424,අගෞරව හැටි,abuse,low,si
+425,අකල්පනා මිනිහා,behavior,high,si
+426,අකල්පනා කෙනා,behavior,medium,si
+427,අකල්පනා යා,character_attack,high,si
+428,අකල්පනා මනුස්සයා,aggression,low,si
+429,අකල්පනා චරිතය,character_attack,high,si
+430,අකල්පනා කට,character_attack,medium,si
+431,අකල්පනා කතා,abuse,medium,si
+432,අකල්පනා වැඩ,behavior,high,si
+433,අකල්පනා හැසිරීම,behavior,high,si
+434,අකල්පනා අදහස්,behavior,high,si
+435,අකල්පනා මොළේ,insult,medium,si
+436,අකල්පනා මනස,insult,high,si
+437,අකල්පනා ප්‍රකාශ,character_attack,medium,si
+438,අකල්පනා වචන,character_attack,high,si
+439,අකල්පනා කම,aggression,medium,si
+440,අකල්පනා ජීවිතය,aggression,low,si
+441,අකල්පනා පුරුද්ද,behavior,medium,si
+442,අකල්පනා විදිහ,insult,low,si
+443,අකල්පනා ආකාරය,character_attack,medium,si
+444,අකල්පනා හැටි,abuse,high,si
+445,අවුල් මිනිහා,abuse,medium,si
+446,අවුල් කෙනා,aggression,medium,si
+447,අවුල් යා,insult,low,si
+448,අවුල් මනුස්සයා,character_attack,high,si
+449,අවුල් චරිතය,abuse,low,si
+450,අවුල් කට,aggression,low,si
+451,අවුල් කතා,behavior,high,si
+452,අවුල් වැඩ,character_attack,low,si
+453,අවුල් හැසිරීම,abuse,high,si
+454,අවුල් අදහස්,insult,medium,si
+455,අවුල් මොළේ,abuse,high,si
+456,අවුල් මනස,character_attack,low,si
+457,අවුල් ප්‍රකාශ,insult,medium,si
+458,අවුල් වචන,abuse,medium,si
+459,අවුල් කම,character_attack,low,si
+460,අවුල් ජීවිතය,insult,medium,si
+461,අවුල් පුරුද්ද,character_attack,high,si
+462,අවුල් විදිහ,aggression,low,si
+463,අවුල් ආකාරය,insult,high,si
+464,අවුල් හැටි,aggression,medium,si
+465,ගැටලු මිනිහා,abuse,low,si
+466,ගැටලු කෙනා,aggression,low,si
+467,ගැටලු යා,abuse,medium,si
+468,ගැටලු මනුස්සයා,behavior,medium,si
+469,ගැටලු චරිතය,character_attack,low,si
+470,ගැටලු කට,insult,high,si
+471,ගැටලු කතා,aggression,low,si
+472,ගැටලු වැඩ,character_attack,low,si
+473,ගැටලු හැසිරීම,character_attack,high,si
+474,ගැටලු අදහස්,insult,high,si
+475,ගැටලු මොළේ,abuse,medium,si
+476,ගැටලු මනස,aggression,high,si
+477,ගැටලු ප්‍රකාශ,behavior,low,si
+478,ගැටලු වචන,abuse,high,si
+479,ගැටලු කම,aggression,medium,si
+480,ගැටලු ජීවිතය,abuse,medium,si
+481,ගැටලු පුරුද්ද,behavior,medium,si
+482,ගැටලු විදිහ,character_attack,medium,si
+483,ගැටලු ආකාරය,behavior,low,si
+484,ගැටලු හැටි,behavior,low,si
+485,අසත්‍ය මිනිහා,abuse,medium,si
+486,අසත්‍ය කෙනා,insult,low,si
+487,අසත්‍ය යා,aggression,low,si
+488,අසත්‍ය මනුස්සයා,aggression,high,si
+489,අසත්‍ය චරිතය,character_attack,high,si
+490,අසත්‍ය කට,insult,medium,si
+491,අසත්‍ය කතා,insult,high,si
+492,අසත්‍ය වැඩ,abuse,low,si
+493,අසත්‍ය හැසිරීම,insult,medium,si
+494,අසත්‍ය අදහස්,insult,high,si
+495,අසත්‍ය මොළේ,behavior,high,si
+496,අසත්‍ය මනස,behavior,high,si
+497,අසත්‍ය ප්‍රකාශ,abuse,medium,si
+498,අසත්‍ය වචන,behavior,medium,si
+499,අසත්‍ය කම,abuse,low,si
+500,අසත්‍ය ජීවිතය,insult,medium,si
+501,අසත්‍ය පුරුද්ද,aggression,low,si
+502,අසත්‍ය විදිහ,behavior,low,si
+503,අසත්‍ය ආකාරය,behavior,high,si
+504,අසත්‍ය හැටි,behavior,medium,si

@@ -1,0 +1,106 @@
+\documentclass[11pt]{article}
+
+% ===== ACL Style =====
+\usepackage[review]{acl}  % change to [final] for camera-ready
+
+% ===== Standard Packages (recommended by ACL) =====
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{url}
+
+% ===== Title =====
+\title{Your Paper Title}
+
+% ===== Author Information =====
+\author{
+Anonymous ACL submission
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The abstract must be a single paragraph of at most 200 words.
+It should concisely summarize the problem, approach, and main findings.
+\end{abstract}
+
+\section{Introduction}
+
+Introduce the problem, motivation, and contributions.
+Citations use natbib format: \citep{manning1999foundations}.
+
+\section{Related Work}
+
+Discuss relevant prior research.
+
+\section{Method}
+
+Describe your approach in detail.
+
+\subsection{Model}
+
+Example equation:
+
+\begin{equation}
+P(y|x) = \frac{\exp(f(x,y))}{\sum_{y'} \exp(f(x,y'))}
+\end{equation}
+
+\section{Experimental Setup}
+
+Describe datasets, training details, and evaluation metrics.
+
+\section{Results}
+
+Example table:
+
+\begin{table}[t]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Model & Accuracy & F1 \\
+\midrule
+Baseline & 85.2 & 84.9 \\
+Proposed Model & \textbf{90.1} & \textbf{89.8} \\
+\bottomrule
+\end{tabular}
+\caption{Experimental results.}
+\end{table}
+
+\section{Analysis}
+
+Provide qualitative or error analysis.
+
+\section{Conclusion}
+
+Summarize contributions and findings.
+
+\section*{Limitations}
+All ACL submissions must include a limitations section.
+Discuss weaknesses, assumptions, and potential risks.
+
+\section*{Ethics Statement}
+If your work involves human data, deployment impact,
+or potential misuse, include an ethics statement.
+
+\section*{Acknowledgments}
+Acknowledgments should only appear in the final version.
+
+\bibliography{anthology,custom}
+\bibliographystyle{acl_natbib}
+
+\appendix
+
+\section{Appendix}
+Additional materials go here.
+
+\end{document}
