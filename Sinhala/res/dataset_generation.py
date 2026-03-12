@@ -1,6 +1,7 @@
 import json
 import pandas as pd
-df = pd.read_csv('sold_test.csv')
+df = pd.read_csv('Sinhala\data\sold_test.csv')
+df_final_= pd.read_csv("Sinhala\data\processed_sold_dataset.csv")
 
 def get_offensive_words(row):
     tokens = row['tokens'].split()  # Split tokens
@@ -32,3 +33,11 @@ def extract_and_save_offensive_words(df, output_file='offensive_words.csv'):
     print(f"Offensive words saved to {output_file}")
     print(f"Total offensive words found: {len(offensive_df)}")
     return offensive_df
+
+
+def add_categories(df_final_):
+        print(df_final_.columns)
+        print(df.columns)
+
+
+add_categories(df_final_)
