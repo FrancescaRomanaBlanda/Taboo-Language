@@ -7,12 +7,16 @@ https://github.com/Sinhala-NLP/SOLD/tree/master
     - Use LLMs ✅ Done
     - Manual review ✅ Done
 
-- Groups 
-    - Gender & Sexual Orientation
-    - Race, Ethnicity & Nationality
-    - Political Affiliation
-    - Religion
-    - Miscellaneou
+- Groups
+      - Gender and Sex
+      - Politics
+      - Race
+      - Religion
+      - Citizenship
+      - Age
+      - Disability
+      - NationalOrigin
+      - Other
 
 
 2. Identify most frequent category and identify the reasons
