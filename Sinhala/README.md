@@ -6,6 +6,15 @@ https://github.com/Sinhala-NLP/SOLD/tree/master
 1. Identify the categories  
     - Use LLMs ✅ Done
     - Manual review ✅ Done
+
+- Groups 
+    - Gender & Sexual Orientation
+    - Race, Ethnicity & Nationality
+    - Political Affiliation
+    - Religion
+    - Miscellaneou
+
+
 2. Identify most frequent category and identify the reasons
 ![alt text](image.png) 
 3. Unique words/categories for each language
