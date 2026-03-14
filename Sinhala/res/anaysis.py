@@ -60,7 +60,7 @@ def main():
 
         print("Analysis complete!", grouped)
     except FileNotFoundError:
-        print(f"Error: File not found at {file_path}")
+        print(f"Error: File not found at {'file_path'}")
     except Exception as e:
         print(f"Error: {e}")
 
