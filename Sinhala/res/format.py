@@ -19,7 +19,6 @@ def read_data(file_path, file_path_words):
         print("Error reading data:", e)
         return None, None
 
-
 def fix_relations(df, df2):
     try:
         print("Fixing relations...")
@@ -71,8 +70,54 @@ def fix_relations(df, df2):
         print("Error fixing relations:", e)
         return df
 
+def csv_to_excel():
+    base_dir = os.path.dirname(__file__)
+    os.chdir(base_dir)
 
-def main():
+    csv_file = os.path.normpath(
+        os.path.join(base_dir, '..', 'data', 'processed_sold_dataset_v8.csv')
+    )
+    excel_file = os.path.normpath(
+        os.path.join(base_dir, '..', 'data', 'processed_sold_dataset_v8_excel.xlsx')
+    )
+    # df = pd.read_csv(
+    #     csv_file,
+    #     encoding="utf-8",
+    #     engine="python",
+    #     on_bad_lines="skip"  # skips problematic rows safely
+    # )
+    #
+    # # Save using openpyxl engine (Excel-friendly)
+    # with pd.ExcelWriter(excel_file, engine="openpyxl") as writer:
+    #     df.to_excel(writer, index=False)
+    df = pd.read_csv(csv_file, encoding="utf-8", engine="python")
+
+    # Convert everything to string (prevents Excel formulas)
+    df = df.astype(str)
+
+    # Save to Excel
+    with pd.ExcelWriter(excel_file, engine="openpyxl") as writer:
+        df.to_excel(writer, index=False)
+
+    print("Conversion completed successfully!")
+
+def delete_columns():
+    base_dir = os.path.dirname(__file__)
+    os.chdir(base_dir)
+    csv_file = os.path.normpath(
+        os.path.join(base_dir, '..', 'data', 'processed_sold_dataset_v7.csv')
+    )
+    df = pd.read_csv(
+        csv_file,
+        encoding="utf-8",
+        engine="python",
+        on_bad_lines="skip"  # skips problematic rows safely
+    )
+    df = df.drop(columns=["C14", "C15", "C16", "C17", "C18", "C19", "C20", "C21", "C22", "C23", "C24","C25","C26", "C27"])
+    df.to_csv("processed_sold_dataset_v8.csv", index=False)
+
+
+def base ():
 
     base_dir = os.path.dirname(__file__)
     os.chdir(base_dir)
@@ -99,6 +144,10 @@ def main():
     df3.to_csv(output_path, index=False)
 
     print("Finished. Saved to:", output_path)
+
+def main():
+ # delete_columns()
+    csv_to_excel()
 
 
 if __name__ == "__main__":
