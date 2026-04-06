@@ -1,0 +1,111 @@
+\documentclass[11pt]{article}
+
+% ACL style file
+\usepackage[review]{acl}   % Use [final] for camera-ready version
+
+% Standard packages
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{url}
+
+% Paper metadata
+\title{Your Paper Title Here}
+
+\author{
+  Anonymous ACL submission\\
+  Affiliation \\
+  Address \\
+  \texttt{email@domain.com}
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This document provides a template for preparing papers in ACL format.
+The abstract should be a single paragraph, indented on both sides,
+with no more than 200 words.
+\end{abstract}
+
+\section{Introduction}
+
+This is the introduction section. It should clearly describe the problem,
+motivation, and contributions of your work.
+
+Example citation: \citep{jurafsky2000speech}.
+
+\section{Related Work}
+
+Discuss prior research relevant to your work.
+
+\section{Methodology}
+
+Describe your proposed approach in detail.
+
+\subsection{Model Architecture}
+
+You may include equations:
+
+\begin{equation}
+P(y|x) = \frac{\exp(f(x,y))}{\sum_{y'} \exp(f(x,y'))}
+\end{equation}
+
+\section{Experiments}
+
+Describe datasets, training setup, and evaluation metrics.
+
+\subsection{Dataset}
+
+Describe the dataset.
+
+\subsection{Results}
+
+You can include tables:
+
+\begin{table}[t]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Model & Accuracy & F1 \\
+\midrule
+Baseline & 85.2 & 84.9 \\
+Ours & 90.1 & 89.8 \\
+\bottomrule
+\end{tabular}
+\caption{Experimental results.}
+\end{table}
+
+\section{Analysis}
+
+Provide qualitative and quantitative analysis.
+
+\section{Conclusion}
+
+Summarize findings and suggest future work.
+
+\section*{Limitations}
+
+Discuss limitations of your work (required for ACL 2023+).
+
+\section*{Ethics Statement}
+
+Include ethical considerations if applicable.
+
+\bibliography{anthology,custom}
+\bibliographystyle{acl_natbib}
+
+\appendix
+
+\section{Appendix}
+
+Additional materials can be included here.
+
+\end{document}
